@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primario: #1d4ed8;
+  --color-acento: #3b82f6;
+  --color-fondo: #09090b;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--color-fondo); }
