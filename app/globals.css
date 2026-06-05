@@ -1,4 +1,4 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -9,4 +9,13 @@
 }
 
 * { box-sizing: border-box; }
-body { background: var(--color-fondo); }
+
+body {
+  background-color: #09090b;
+  color: #ffffff;
+}
+
+input, select, textarea {
+  color: #ffffff;
+  background-color: #27272a;
+}
